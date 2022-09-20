@@ -5,6 +5,7 @@ const key = 'ba665fb2';
 const configOMB = {
     baseURL: `http://www.omdbapi.com/`,
 };
+
 const axiosInstance = axios.create(configOMB);
 
 const API = {
